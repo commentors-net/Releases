@@ -34,7 +34,6 @@ End-to-end flow:
 Accepted intake types:
 - `.csv`
 - `.txt`
-- `.pdf`
 
 TokCon processing types:
 - Bulk Send uses `.csv`
