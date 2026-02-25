@@ -70,12 +70,20 @@ TXT format (one address per line):
 
 ## 5. Daily Operating Flow
 
+Portal navigation after login:
+- `Intake`: file upload and file lifecycle actions
+- `Users`: admin user creation/update/delete
+- `Audit`: audit search and CSV export
+
 ### 5.1 Upload and Prepare (Portal Admin)
 
-1. In **Quick Upload Flow**, choose file.
-2. Click **Upload and Prepare for TokCon**.
-3. Wait for completion message indicating file is ready.
-4. In **Intake Files**, confirm state is `ReadyToPull`.
+1. In **Quick Upload Flow**, choose file category:
+   - `BulkSend` for `.csv`
+   - `FreezeUnfreeze` for `.txt`
+2. Choose file.
+3. Click **Upload and Prepare for TokCon**.
+4. Wait for completion message indicating file is ready.
+5. In **Intake Files**, confirm state is `ReadyToPull`.
 
 What happens automatically:
 - Intake validation
@@ -87,11 +95,10 @@ What happens automatically:
 
 1. Open TokCon and go to **Bulk Send** tab.
 2. Click **Fetch Ready CSV Files**.
-3. Select one queue row in grid.
-4. Click **Pull Selected CSV File**.
-5. Verify addresses/amounts are loaded in grid.
-6. Click **Send and Freeze**.
-7. Continue clicking **Send and Freeze** until all rows are processed.
+3. TokCon pulls first ready `BulkSend` file automatically and loads CSV rows in grid.
+4. Verify addresses/amounts are loaded in grid.
+5. Click **Send and Freeze**.
+6. Continue clicking **Send and Freeze** until all rows are processed.
 
 Result:
 - TokCon acknowledges file.
@@ -101,7 +108,7 @@ Result:
 
 1. Open TokCon and go to **Freeze/Unfreeze** tab.
 2. Click **Fetch Ready TXT Files**.
-3. TokCon pulls first ready TXT automatically and displays addresses in grid.
+3. TokCon pulls first ready `FreezeUnfreeze` file automatically and displays addresses in grid.
 4. Click **Bulk Freeze** or **Bulk Unfreeze**.
 5. If retry addresses remain, run again until list is empty.
 
