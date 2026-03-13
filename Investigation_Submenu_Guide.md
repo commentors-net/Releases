@@ -1,6 +1,6 @@
 # Investigation Submenu Guide
 
-Last updated: 2026-03-14
+<img width="1524" height="283" alt="image" src="https://github.com/user-attachments/assets/803e0eef-c722-4720-a597-416fcca6fa54" />
 
 This guide explains the pages under the `Investigate` menu in simple language.
 
@@ -11,6 +11,7 @@ The `Investigate` area helps you follow where tokens came from, where they went,
 You do not need blockchain knowledge to use it. Each page is focused on one question.
 
 ## 1. Outgoing Trace
+<img width="1514" height="1217" alt="image" src="https://github.com/user-attachments/assets/6dfefc4f-13aa-4165-875a-8fa016c2bd04" />
 
 Use this page when you want to see where tokens moved after leaving frozen wallets.
 
@@ -27,6 +28,7 @@ Important note:
 - If you leave the wallet list empty, the system uses the default XT.com exchange frozen address.
 
 ## 2. Incoming Trace
+<img width="1529" height="801" alt="image" src="https://github.com/user-attachments/assets/87a8d88d-9eec-47f2-8722-85a78dab04ac" />
 
 Use this page when you want to see who sent tokens into a wallet.
 
@@ -40,6 +42,7 @@ Use this page to answer:
 - "Can I trace the source further back?"
 
 ## 3. Address Link
+<img width="1532" height="507" alt="image" src="https://github.com/user-attachments/assets/999b4ede-dcce-4e87-81b9-db557dca3bd0" />
 
 Use this page when you want to check whether two wallets are connected by token transfers.
 
@@ -53,6 +56,7 @@ Use this page to answer:
 - "Is the connection direct or through several steps?"
 
 ## 4. Price
+<img width="1522" height="1059" alt="image" src="https://github.com/user-attachments/assets/532a853f-92c9-4698-a9a0-a926c9ae8c7c" />
 
 Use this page when you want to review token price changes over time and see who moved tokens on a selected day.
 
@@ -66,6 +70,7 @@ Use this page to answer:
 - "Who was sending tokens on this specific day?"
 
 ## 5. Bulk Sources
+<img width="1520" height="640" alt="image" src="https://github.com/user-attachments/assets/f29da32b-4900-4242-8829-52d42beb9ea4" />
 
 Use this page when you have many wallets and want to review their incoming sources in one run.
 
@@ -79,6 +84,7 @@ Use this page to answer:
 - "Can I prepare this as an export for review?"
 
 ## 6. Wallet Outgoing
+<img width="1539" height="597" alt="image" src="https://github.com/user-attachments/assets/916fc0e4-1c15-4075-87cb-ad57308e94eb" />
 
 Use this page when you want the outgoing history of one wallet over a long period.
 
