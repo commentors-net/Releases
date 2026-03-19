@@ -2,6 +2,8 @@ Legacy BOS: 0xf2067abfab8bc621211935431519d41825d2f344
 Distributed "aged" tokens to various clients during the listing window.
 
 ---
+
+```mermaid
 flowchart TD
 
     %% Source Layer (2023)
@@ -36,8 +38,9 @@ Legacy BOS - Aged 2+ Years"]
     C4 -->|Dump| XT
     C5 -->|Dump| XT
     C6 -->|Dump| XT
-    
----    
+```
+
+---
 In the context of cryptocurrency market analysis and forensic investigations, **"aged" tokens** and **"Legacy BOS"** (Business of Substance) layers refer to specific methods used to mask coordinated selling activity.
 
 ### **What are "Aged" Tokens?**
@@ -59,8 +62,7 @@ A **Business of Substance (BOS)** layer is a tier of wallets that act as middlem
 
 By using a Legacy BOS to distribute aged tokens, the orchestrators create a false narrative of "investor fatigue" or "retail sell-off," hiding the reality that the price crash was a pre-planned movement of core supply.
 
-```
-```text?code_stdout&code_event_index=2
+```text
 --- Incoming Transactions to Legacy BOS (Proof of Age) ---
           DateTime (UTC)                                        From       Quantity
 615  2023-05-24 08:56:23  0x3d1745c591eeb7cf2672028edd38113f1b9e3cd9      10.123000
